@@ -43,9 +43,7 @@ var compare = function(me, opponent) {
       } else if (opponent === 'rock') {
         return 'Lose! Scissors loses to Rock';
     }
-  } else {
-    return "That doesn't make any sense!"
-  }
+  } 
 };
 var computerChoice = function() {
         var random = Math.random();
