@@ -1,4 +1,10 @@
-/* click your choice below box */
+header{
+  text-align: center;
+  font-family: 'Arial';
+  padding: 30px;
+}
+
+
 #site-title {
   outline: 3px solid black;
   background-color: rgb(212, 212, 212);
@@ -29,7 +35,7 @@
   padding: 30px;
 }
 /* outcome box */
-#winorlose {
+#decision {
   outline: 5px solid black;
   background-color: rgb(212, 212, 212);
   border-style: double;
