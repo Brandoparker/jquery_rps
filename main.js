@@ -20,9 +20,9 @@ var compare = function(me, opponent) {
       if(opponent === 'rock') {
           return 'Tie';
       } else if (opponent === 'paper') {
-        return 'Your rock lost to paper';
+        return 'Lose! Rock loses to Paper';
       } else if (opponent === 'scissors') {
-        return 'Your rock beat scissors';
+        return 'Win! Rock beats Scissors';
       }
     
   } else if (me === 'paper') {
@@ -30,18 +30,18 @@ var compare = function(me, opponent) {
       if(opponent === 'paper') {
         return 'Tie';
       } else if (opponent === 'rock') {
-        return 'Your paper beat rock';
+        return 'Win! Paper beats Rock';
       } else if (opponent === 'scissors') {
-        return 'Your paper lost to scissors';
+        return 'Lose! Paper loses to Scissors';
     }
   } else if (me === 'scissors') {
     
       if(opponent === 'scissors') {
         return 'Tie';
       } else if (opponent === 'paper') {
-        return 'Your scissors beat paper';
+        return 'Win! Scissors beats Paper';
       } else if (opponent === 'rock') {
-        return 'Your scissors lost to Rock';
+        return 'Lose! Scissors loses to Rock';
     }
   } else {
     return "That doesn't make any sense!"
